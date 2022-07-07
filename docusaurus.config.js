@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Hello',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'duchuy1412', // Usually your GitHub org/user name.
+  projectName: 'my-space', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -54,10 +54,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      //   backgroundColor: '#fafbfc',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
+      image: 'img/docusaurus.png',
       navbar: {
-        title: 'My Site',
+        title: 'My space',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'My Space Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,42 +76,62 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          { to: '/posts', label: 'All posts', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/aboutme', label: 'About me', position: 'left' },
           // {
-          //   href: 'https://github.com/facebook/docusaurus',
+          //   href: 'https://github.com/duchuy1412/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',
           // },
         ],
       },
       footer: {
+        logo: { src: 'img/logo.svg' },
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorial',
             items: [
               {
+                label: 'HTML',
+                to: '/tutorial/html',
+              },
+              {
+                label: 'CSS',
+                to: '/tutorial/css',
+              },
+              {
+                label: 'Javascript',
+                to: '/tutorial/javascript',
+              },
+              {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/tutorial/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://facebook.com/',
               },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
+              // {
+              //   html: `
+              //       <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+              //         <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" />
+              //       </a>
+              //     `,
+              // },
             ],
           },
           {
@@ -114,12 +143,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/duchuy1412',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Space. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
