@@ -67,7 +67,7 @@ const config = {
         title: 'My space',
         logo: {
           alt: 'My Space Logo',
-          src: 'img/logo.svg',
+          src: 'img/Space-Logo.svg',
         },
         items: [
           // {
@@ -86,7 +86,7 @@ const config = {
         ],
       },
       footer: {
-        logo: { src: 'img/logo.svg' },
+        logo: { src: 'img/Space-Logo.svg' },
         style: 'dark',
         links: [
           {
