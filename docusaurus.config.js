@@ -6,7 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hello',
+  title: 'Hello Everyone',
+  titleDelimiter: '^',
+
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -19,12 +21,17 @@ const config = {
   organizationName: 'duchuy1412', // Usually your GitHub org/user name.
   projectName: 'my-space', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'vi'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      vi: {
+        label: 'Tiếng Việt',
+      },
+    },
   },
 
   presets: [
@@ -41,6 +48,8 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         blog: {
+          blogTitle: 'Blog',
+          blogDescription: 'Tản mạn về cuộc sống, nghề nghiệp, sở thích',
           routeBasePath: '/',
           showReadingTime: true,
         },
