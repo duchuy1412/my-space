@@ -22,7 +22,7 @@ const config = {
   projectName: 'my-space', // Usually your repo name.
 
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'vi',
     locales: ['en', 'vi'],
     localeConfigs: {
       en: {
@@ -87,6 +87,10 @@ const config = {
           // },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/aboutme', label: 'About me', position: 'left' },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           // {
           //   href: 'https://github.com/duchuy1412/docusaurus',
           //   label: 'GitHub',
