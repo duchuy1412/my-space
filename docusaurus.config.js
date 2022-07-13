@@ -7,10 +7,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hello Everyone',
-  titleDelimiter: '^',
+  titleDelimiter: '|',
 
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://duchuy1412.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'duchuy1412', // Usually your GitHub org/user name.
   projectName: 'my-space', // Usually your repo name.
+  deploymentBranch: 'main',
 
   i18n: {
     defaultLocale: 'en',
