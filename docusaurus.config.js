@@ -22,7 +22,7 @@ const config = {
   projectName: 'my-space', // Usually your repo name.
 
   i18n: {
-    defaultLocale: 'vi',
+    defaultLocale: 'en',
     locales: ['en', 'vi'],
     localeConfigs: {
       en: {
