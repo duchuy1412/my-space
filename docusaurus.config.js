@@ -12,6 +12,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://duchuy1412.netlify.app',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -20,7 +21,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'duchuy1412', // Usually your GitHub org/user name.
   projectName: 'my-space', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
 
   i18n: {
     defaultLocale: 'en',
