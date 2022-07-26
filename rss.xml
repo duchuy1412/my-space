@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Hello Everyone Blog</title>
-        <link>https://duchuy1412.netlify.app/</link>
+        <link>https://duchuy1412.netlify.app/my-space/</link>
         <description>Hello Everyone Blog</description>
         <lastBuildDate>Wed, 06 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Demo Post]]></title>
-            <link>https://duchuy1412.netlify.app/demo-post</link>
+            <link>https://duchuy1412.netlify.app/my-space/demo-post</link>
             <guid>demo-post</guid>
             <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum 532 sit amet, 42252 adipiscing elit. Pellentesque 5325 dignissim53532 ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
