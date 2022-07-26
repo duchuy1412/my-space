@@ -12,7 +12,7 @@ const config = {
   url: 'https://duchuy1412.netlify.app',
   baseUrl: '/',
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
