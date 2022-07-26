@@ -10,7 +10,7 @@ const config = {
   titleDelimiter: '|',
   tagline: 'Dinosaurs are cool',
   url: 'https://duchuy1412.netlify.app',
-  baseUrl: '/',
+  baseUrl: '/my-space/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
