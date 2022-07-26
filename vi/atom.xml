@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://duchuy1412.netlify.app/vi/</id>
+    <title>Hello Everyone Blog</title>
+    <updated>2022-07-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://duchuy1412.netlify.app/vi/"/>
+    <subtitle>Hello Everyone Blog</subtitle>
+    <icon>https://duchuy1412.netlify.app/vi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Demo Post]]></title>
+        <id>demo-post</id>
+        <link href="https://duchuy1412.netlify.app/vi/demo-post"/>
+        <updated>2022-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum 532 sit amet, 42252 adipiscing elit. Pellentesque 5325 dignissim53532 ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum 532 sit amet, 42252 adipiscing elit. Pellentesque 5325 dignissim53532 ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Ngo Duc Huy</name>
+            <uri>https://github.com/duchuy1412</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
